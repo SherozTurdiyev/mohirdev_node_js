@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foydalanuvchi qo'shish</title>
+    <link rel="stylesheet" href="/add-user.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-items">
+                <li class="nav-item">
+                    <a href="/">Asosiy Sahifa</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/user/add-user">foydalanuvchi qo'shish</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="/user" method="POST">
+            <input type="string" name="username" />
+            <input type="number" name="age" />
+            <button type="submit">Saqlash</button>
+        </form>
+    </main>
+</body>
+
+</html>

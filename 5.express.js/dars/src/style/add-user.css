@@ -1,0 +1,15 @@
+.nav-items {
+    display: flex;
+    justify-content: start;
+    gap: 18px;
+    color: black;
+    background-color: aqua;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 0;
+}
+input{
+  padding: 5px 15px;
+  border-radius: 15px;
+  outline: none;
+}
